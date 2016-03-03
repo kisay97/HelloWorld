@@ -1,10 +1,12 @@
 package helloworld;
 
-import java.util.Scanner;
-
-public class HelloWorld {
+public class HelloWorld{
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 		System.out.println("Hello World");
+		printHi();
+	}
+	
+	public static void printHi(){
+		System.out.println("HI");
 	}
 }
